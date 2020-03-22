@@ -47,4 +47,58 @@
   </extension>
 </addon>
 
+
+
+<addon id="plugin.video.WTKIDS"                                                                                                                                    
+	   name="WT KIDS"                      
+	   version="1.0"                                                                                                                                        
+	   provider-name="AA">
+	   <requires>
+    <import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests"/>
+	
+
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KIDS</summary>
+    <description lang="en">WATCHDOGS FORK-ORIGENALLY BY AA</description>
+    <platform>all</platform>
+
+  </extension>
+</addon>
+
+
+
+<addon id="plugin.video.CHICCO"                                                                                                                                    
+	   name="ציקו"                      
+	   version="6.4.8"                                                                                                                                        
+	   provider-name="CHICCO">
+	   <requires>
+    <import addon="script.module.resolveurl" version="5.0.00"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests"/>
+	
+
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">סרטים/סדרות</summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+
+  </extension>
+</addon>
+
 </addons>
