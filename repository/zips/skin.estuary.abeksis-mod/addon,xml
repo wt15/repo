@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.estuary.abeksis-mod" version="1.8" name="Estuary MOD (KODI 17) By Abeksis" provider-name="Guilouz - Abeksis">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.skinshortcuts" version="0.6.0"/>
+		<import addon="script.skin.helper.service" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="21x9" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Estuary MOD skin by Guilouz</summary>
+		<summary lang="he_IL">Estuary MOD על ידי אבקסיס</summary>
+		<summary lang="fr_FR">Thème Estuary MOD par Guilouz</summary>
+		<description lang="en_GB">Estuary MOD is a mod from Estuary by Guilouz for Kodi 17. It attempts to be easy for first time Kodi users to understand and use.</description>
+		<description lang="he_IL">Estuary MOD מוד עבוד Estuary מותאם לקודי 17 בלבד. תוכלו לקבל סיוע ומידע בקבוצת הפייסבוק תחת השם kodisupporil</description>
+		<description lang="fr_FR">Estuary MOD est un mod de Estuary par Guilouz pour Kodi 17. Il est facile à comprendre et à utiliser pour les utilisateurs novices de Kodi.</description>
+		<disclaimer lang="en_GB">For better experience, be sure to install all addons required by the theme.</disclaimer>
+		<disclaimer lang="fr_FR">Pour une meilleure expérience, assurez-vous d'installer toutes les extensions requises par le thème.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>http://abeksis.com</forum>
+		<source>http://abeksis.com</source>
+		<assets>
+ 			<icon>resources/icon.png</icon>
+ 			<fanart>resources/fanart.jpg</fanart>
+ 			<screenshot>resources/screenshot-01.jpg</screenshot>
+ 			<screenshot>resources/screenshot-02.jpg</screenshot>
+ 			<screenshot>resources/screenshot-03.jpg</screenshot>
+ 			<screenshot>resources/screenshot-04.jpg</screenshot>
+ 			<screenshot>resources/screenshot-05.jpg</screenshot>
+ 			<screenshot>resources/screenshot-06.jpg</screenshot>
+ 			<screenshot>resources/screenshot-07.jpg</screenshot>
+ 			<screenshot>resources/screenshot-08.jpg</screenshot>
+ 			<screenshot>resources/screenshot-09.jpg</screenshot>
+ 			<screenshot>resources/screenshot-10.jpg</screenshot>
+ 			<screenshot>resources/screenshot-11.jpg</screenshot>
+ 			<screenshot>resources/screenshot-12.jpg</screenshot>
+ 			<screenshot>resources/screenshot-13.jpg</screenshot>
+ 			<screenshot>resources/screenshot-14.jpg</screenshot>
+ 		</assets>
+		<news></news>
+	</extension>
+</addon>
