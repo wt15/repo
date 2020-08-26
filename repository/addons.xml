@@ -173,27 +173,19 @@
 
 
 
-<addon id="plugin.video.telemedia"                                                                                                                                    
-	   name="Telemedia 2.0"                                                 
-	   version="1.9.4"                                                                                                                                        
-	   provider-name="Pavel Durov">
+<addon id="plugin.video.kodikaraoke" name="Kodi Karaoke Lite" version="0.0.3" provider-name="Kodi Karaoke">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.requests"/>
-
-	<import addon="script.module.pyxbmct" version="1.1.4" />
+    <import addon="plugin.video.youtube" version="0.0.1"/>
   </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
+  <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="he">Telegram media for kodi,\n Thanks to "Aliaksei Levin" without him none of this would have been possiable</summary>
-    <description lang="he">Telegram media for kodi</description>
+    <summary lang="en">Play Karaoke Videos from KODIKARAOKE.COM</summary>
+    <description lang="en">Play Karaoke Videos from KODIKARAOKE.COM</description>
     <platform>all</platform>
   </extension>
 </addon>
-
 
 </addons>
