@@ -192,7 +192,7 @@
 
 <addon id="plugin.program.WatchDogs"                                                                                                                                    
 	   name=" [COLOR tan][B]Watch Dogs [/B][/COLOR]"                                                 
-	   version="5.9"                                                                                                                                        
+	   version="6.0"                                                                                                                                        
 	   provider-name="">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
